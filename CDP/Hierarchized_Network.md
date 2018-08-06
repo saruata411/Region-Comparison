@@ -1,6 +1,6 @@
 # 2階層ネットワーク構成
 
-評価ステータス：実機検証中です。
+評価ステータス：完了（[CDP公開済](https://k5-doc.jp-east-1.paas.cloud.global.fujitsu.com/doc/jp/iaas/document/cdp/index.html#CDP/Hierarchized_Network.html)）です。
 
 
 

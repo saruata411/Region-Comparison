@@ -31,7 +31,7 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 2. [サーバ機能](serverfunction/README.md)
 3. [ストレージ機能](storagefunction/README.md)
 4. [ネットワーク機能](networkdesign/README.md)
-5. データベース機能(新リージョンでは2018年7月末より提供予定)
+5. [データベース機能](database/README.md)
 6. [CDP (Cloud Design Patterns)](CDP/README.md)
 7. [ユーザーポータル](userportal/README.md)
 8. [API](API/README.md)

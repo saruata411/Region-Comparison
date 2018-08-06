@@ -2,7 +2,7 @@
 
 ここでは新リージョンにおいて、旧リージョンのCDPと同等の構成を構築できるのか、について評価します。
 
-旧リージョンのCDP詳細については[こちら](https://k5-doc.jp-east-1.paas.cloud.global.fujitsu.com/doc/jp/iaas/document/cdp/index.html)（今後新リージョン向けCDPも追加される予定）を参照ください。
+公開済のCDP詳細については[こちら](https://k5-doc.jp-east-1.paas.cloud.global.fujitsu.com/doc/jp/iaas/document/cdp/index.html)を参照ください。
 
 ------
 
@@ -36,7 +36,7 @@
 | 9    |                            | [セキュリティグループ／ファイアーウォール併用](SecurityGroup_and_FW.md) | 同等構成可       | 1.机上評価          |
 | 10   |                            | [機能別セキュリティグループ](Functional_SecurityGroup.md)    | 同等構成可       | 1.机上評価          |
 | 11   |                            | [IPSecVPN接続](IPSecVPN.md)                                  | 構成変更必要     | 3.実機検証          |
-| 12   |                            | [2階層ネットワーク構成](Hierarchized_Network.md)             | 一部同等構成可能 | 3.実機検証          |
+| 12   |                            | [2階層ネットワーク構成](Hierarchized_Network.md)             | 一部同等構成可能 | 4.完了(CDP公開済)   |
 | 13   |                            | [2階層インターネットアクセス(NAT)パターン](Internet_Nat.md)  | 同等構成不可     | 2.机上評価承認      |
 | 14   | ネットワーク応用パターン   | [共通サービスパターン](Common_Service.md)                    | 構成変更必要     | 1.机上評価          |
 | 15   |                            | [共有ネットワークパターン](Common_Network.md)                | 構成変更必要     | 1.机上評価          |
@@ -62,5 +62,5 @@
 | 35   | プロジェクト活用パターン   | [開発・本番プロジェクトパターン](ProjectUseCase1.md)         | 同等構成可       | 1.机上評価          |
 | 36   |                            | [部門別プロジェクトパターン](ProjectUseCase2.md)             | 同等構成可       | 1.机上評価          |
 
-(*1)RDBは2018年6月時点でサービス提供はありません。提供開始され次第再評価予定です。
+(*1)RDBは2018年7月時点でα版の提供のみです。正式版の提供後に再評価予定です。
 
