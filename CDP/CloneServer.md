@@ -1,6 +1,6 @@
 # クローニング（サーバの複製）
 
-評価ステータス：机上評価中です。
+評価ステータス：完了（[CDP公開済](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/cdp/CDP/CloneServer_region3.html)）です。
 
 
 
