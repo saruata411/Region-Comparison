@@ -1,6 +1,6 @@
 # 内部負荷分散構成
 
-評価ステータス：実機検証中です。
+評価ステータス：完了（[CDP公開済](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/cdp/CDP/Multi_Server_Internal_region3_LBaaS.html)）です。
 
 
 
