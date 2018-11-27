@@ -17,7 +17,7 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 # 新リージョン
 
 | リージョン名       | 開設時期  |
-| ------------------ | --------- |
+|:-------------------|:----------|
 | 西日本リージョン３ | 2018年6月 |
 | 東日本リージョン３ | 2018年7月 |
 
@@ -32,7 +32,7 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 3. [ストレージ機能](storagefunction/README.md)
 4. [ネットワーク機能](networkdesign/README.md)
 5. [データベース機能](database/README.md)
-6. [CDP (Cloud Design Patterns)](CDP/README.md)
+6. [IaaS初期構築ガイド、クラウドデザインパターン(CDP)](CDP/README.md)
 7. [ユーザーポータル](userportal/README.md)
 8. [API](API/README.md)
 9. [Heatテンプレート](HeatTemplate/README.md)
@@ -45,9 +45,9 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 
 # 公開ドキュメント
 
-| 概要                                    | 格納先                                                       |
-| --------------------------------------- | ------------------------------------------------------------ |
-| FUJITSU Cloud Serviceの公開ドキュメント | [FUJITSU Cloud Service]( https://k5-doc.jp-east-1.paas.cloud.global.fujitsu.com/doc/jp/iaas/document/list/doclist_iaas.html ) |
+| 概要                                    | 格納先                                                                             |
+|:----------------------------------------|:-----------------------------------------------------------------------------------|
+| FUJITSU Cloud Serviceの公開ドキュメント | [FUJITSU Cloud Service]( https://doc.cloud.global.fujitsu.com/jp/iaas/index.html ) |
 
 ------
 
@@ -56,7 +56,7 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 # 略称
 
 | 略称         | 英語名称                 | 日本語名称                   |
-| ------------ | ------------------------ | ---------------------------- |
+|:-------------|:-------------------------|:-----------------------------|
 | AZ           | Availability Zone        | アベイラビリティゾーン       |
 | CDP          | Cloud Design Patterns    | クラウドデザインパターン     |
 | VM           | Virtual Machine          | 仮想サーバ                   |
@@ -85,4 +85,4 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 
 
 
-尚、本書では、システム名または製品名に付記される登録表示（™または®）は、省略しています。 
+尚、本書では、システム名または製品名に付記される登録表示（™または®）は、省略しています。
