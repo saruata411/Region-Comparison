@@ -13,9 +13,9 @@ FUJITSU Cloud Service for OSS IaaSを用いて、初めてシステム構築す�
     - ネットワーク構築  
     - SSL-VPN構築・接続  
     - 仮想サーバ構築・接続  
+    - API操作方法  
 
 - 今後の追加予定  
-    - API操作方法  
     - ベアメタル(ESXi)構築  
 
 ------
