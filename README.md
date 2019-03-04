@@ -32,7 +32,7 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 3. [ストレージ機能](storagefunction/README.md)
 4. [ネットワーク機能](networkdesign/README.md)
 5. [データベース機能](database/README.md)
-6. [IaaS初期構築ガイド、クラウドデザインパターン(CDP)](CDP/README.md)
+6. [IaaS構築ガイド、クラウドデザインパターン(CDP)](CDP/README.md)
 7. [ユーザーポータル](userportal/README.md)
 8. [API](API/README.md)
 9. [Heatテンプレート](HeatTemplate/README.md)
@@ -80,6 +80,7 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 - Red Hat、Red Hat Enterprise Linux、OpenShiftは米国およびその他の国において登録されたRed Hat, Inc.の商標です。
 - Ubuntuは、Canonical Ltd.の登録商標です。
 - OpenStackのワードマークは、米国とその他の国におけるOpenStack Foundationの登録商標/サービスマークまたは商標/サービスマークのいずれかであり、OpenStack Foundationの許諾の下に使用されています。
+- VMwareおよびVMwareの製品名は、VMware, Inc.の米国および各国での商標または登録商標です。  
 - SAP及びSAPロゴ、SAP R/3、mySAP.com、mySAP Business Suite、その他のSAP製品は、ドイツ及びその他の国におけるSAP AGの商標または登録商標です。
 - そのほか、本書に記載されている会社名および製品名は、それぞれ各社の商標または登録商標です。
 
