@@ -1,31 +1,51 @@
-# IaaS初期構築ガイド、クラウドデザインパターン(CDP)  
+# IaaS構築ガイド、クラウドデザインパターン(CDP)  
 
 ## IaaS初期構築ガイド  
 
-FUJITSU Cloud Service for OSS IaaSを用いて、初めてシステム構築する方向けの手順書  
+FUJITSU Cloud Service for OSS IaaSを用いて、初めてシステムを構築する方向けの手順書  
 
-- 新リージョン用ドキュメントを作成：[IaaS初期構築ガイド](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/initial_guide/index.html)  
+- 新リージョン用ドキュメントを作成  
 
-- 掲載内容  
+- 「[IaaS初期構築ガイド](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/initial_guide/index.html)」の主な掲載内容  
     - 事前準備  
-        - ユーザ・ロール作成  
+        - ユーザ／ロール作成  
         - ユーザをプロジェクトに登録  
     - ネットワーク構築  
-    - SSL-VPN構築・接続  
-    - 仮想サーバ構築・接続  
+    - SSL-VPN構築／接続  
+    - 仮想サーバ構築／接続  
     - API操作方法  
 
-- 今後の追加予定  
-    - ベアメタル(ESXi)構築  
 
-------
+---
 
 ## クラウドデザインパターン(CDP)  
 
-FUJITSU Cloud Service for OSS IaaSにおける、代表的な設計パターンと構築手順  
+FUJITSU Cloud Service for OSS IaaSを用いた、代表的な設計パターンと構築手順  
 
-- 新旧リージョン情報を掲載：[クラウドデザインパターン・実装サンプル集](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/cdp/index.html)  
+- 「[クラウドデザインパターン・実装サンプル集](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/cdp/index.html)」に、新リージョンの対応状況を掲載  
+- 次回は、2019年3月末に更新予定です。
 
-- 新リージョンの対応状況については、上記リンクを参照ください。  
-    - 新リージョン向けCDPの評価：旧リージョンと同等の構成を構築できるか  
-    - 新リージョンの検証状況  
+
+---
+
+## ベアメタルサービス構築ガイド(VMware ESXi)  
+
+ベアメタルサーバの申込から、VMware ESXiにログインするまでの手順書  
+
+- 「[ベアメタルサービス構築ガイド](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/baremetal_inst_guide/index.html)」の主な掲載内容  
+    - サンプル構成の説明  
+    - 申込前の準備作業  
+        - ベアメタルサーバと接続する、管理用ネットワークを構築  
+        - 申込書の作成 → 管理用ネットワークに関する情報を記載  
+    - ベアメタルサーバ配備後の環境構築  
+        - 業務用ネットワーク  
+        - ストレージ用ネットワーク  
+        - トランク(VLAN)  
+        - コンソール接続(iRMC)  
+    - 接続確認  
+        - iRMC  
+        - VMware ESXi 管理コンソール  
+        - vSphere Web Client  
+
+
+---
