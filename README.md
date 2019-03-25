@@ -25,18 +25,18 @@ FUJITSU Cloud Service for OSS IaaS (旧FUJITSU Clould Service K5 IaaS) の2018�
 
 
 
-# Index
+# 目次  
 
-1. [AZ (Availability Zone)](AZ/README.md)
+1. [AZ](AZ/README.md)
 2. [サーバ機能](serverfunction/README.md)
 3. [ストレージ機能](storagefunction/README.md)
 4. [ネットワーク機能](networkdesign/README.md)
 5. [データベース機能](database/README.md)
-6. [IaaS構築ガイド、クラウドデザインパターン(CDP)](CDP/README.md)
+6. [IaaS構築ガイド・クラウドデザインパターン(CDP)](CDP/README.md)
 7. [ユーザーポータル](userportal/README.md)
 8. [API](API/README.md)
 9. [Heatテンプレート](HeatTemplate/README.md)
-10. [認証／規格](audit/README.md)
+10. [認証・規格](audit/README.md)
 11. [FAQ](FAQ/README.md)
 
 ------

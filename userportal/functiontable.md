@@ -1,4 +1,17 @@
-# ユーザーポータル機能一覧表
+# IaaSポータル機能一覧表
+
+## 目次  
+
+<!-- TOC depthFrom:3 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [1. 変更ポイント](#1-変更ポイント)
+
+<!-- /TOC -->
+
+
+---
+
+### 1. 変更ポイント  
 
 ユーザーポータルの新リージョン対応状況です。
 - [✓]：提供  
@@ -34,5 +47,5 @@
 | ログ                     | 操作ログ                   |  ✓   | －                                                                      |
 
 
-(\*1)：[ファイアーウォールサービスの制限事項](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/firewall_limitation.pdf)をご覧ください。  
-(\*2)：[IaaS 制限事項・注意事項](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/k5-limitation2.pdf)をご覧ください。  
+(\*1)：[「ファイアーウォールサービスの制限事項」](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/firewall_limitation.pdf)をご覧ください。  
+(\*2)：[「IaaS 制限事項・注意事項」](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/k5-limitation2.pdf)をご覧ください。  

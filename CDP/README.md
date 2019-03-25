@@ -1,6 +1,19 @@
-# IaaS構築ガイド、クラウドデザインパターン(CDP)  
+# IaaS構築ガイド・クラウドデザインパターン(CDP)  
 
-## IaaS初期構築ガイド  
+## 目次  
+
+<!-- TOC depthFrom:3 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [1. IaaS初期構築ガイド](#1-iaas初期構築ガイド)
+- [2. クラウドデザインパターン(CDP)](#2-クラウドデザインパターンcdp)
+- [3. ベアメタルサービス構築ガイド(VMware ESXi)](#3-ベアメタルサービス構築ガイドvmware-esxi)
+
+<!-- /TOC -->
+
+
+---
+
+### 1. IaaS初期構築ガイド  
 
 FUJITSU Cloud Service for OSS IaaSを用いて、初めてシステムを構築する方向けの手順書  
 
@@ -18,7 +31,7 @@ FUJITSU Cloud Service for OSS IaaSを用いて、初めてシステムを構築�
 
 ---
 
-## クラウドデザインパターン(CDP)  
+### 2. クラウドデザインパターン(CDP)  
 
 FUJITSU Cloud Service for OSS IaaSを用いた、代表的な設計パターンと構築手順  
 
@@ -28,7 +41,7 @@ FUJITSU Cloud Service for OSS IaaSを用いた、代表的な設計パターン�
 
 ---
 
-## ベアメタルサービス構築ガイド(VMware ESXi)  
+### 3. ベアメタルサービス構築ガイド(VMware ESXi)  
 
 ベアメタルサーバの申込から、VMware ESXiにログインするまでの手順書  
 
