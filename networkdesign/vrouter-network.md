@@ -1,93 +1,114 @@
 # 仮想ルータとネットワークの接続
 
-仮想ルータとネットワークの接続の差異があります。
+## 目次  
+
+<!-- TOC depthFrom:3 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [1. 旧リージョン](#1-旧リージョン)
+- [2. 新リージョン](#2-新リージョン)
+- [3. 参考](#3-参考)
+
+<!-- /TOC -->
 
 
+---
+
+### 1. 旧リージョン  
+
+１つのネットワークは、「複数の仮想ルータ」に接続できます。  
+
+![](images/old-sample00.png)  
 
 
-## 旧リージョン
+---
 
-１つのネットワークを複数の仮想ルータに接続可能です。
+#### 旧リージョンの構成例1  
 
-![old-sample00](images/old-sample00.png)
-
-
-
-**2階層ネットワーク構成の例**
-
-![old-sample01](images/old-sample01.png)
-
-------
-
-
-
-## 新リージョン
-
-１つのネットワークは１つの仮想ルータに接続するシンプル構成です。
-
-![new-sample00](images/new-sample00.png)
-
-具体的な構成例については、[複数ネットワークの構成例](#複数ネットワークの構成例)、および[バックLAN構成例](#バックlan構成例)をご参照ください。また参考としてIPCOM VAを使う[参考構成例](#参考構成例)も記載しています。
-
-
-
-### 複数ネットワークの構成例
-
-**仮想ルータ1つで両階層ネットワークを接続する構成例**
-
-![new-sample01](images/new-sample01.png)
-
+- 「内部ネットワーク-A」は、「仮想ルータ/FW-A」と「仮想ルータ/FW-B」に接続  
+![](images/old-sample01.png)  
 
 
 ------
 
-### バックLAN構成例
+#### 旧リージョンの構成例2  
 
-**仮想ルータによる構成例１**
-
-![new-backlan-sample01](images/new-backlan-sample01.png)
-
-
-
-**仮想ルータによる構成例2**
-
-![new-backlan-sample02](images/new-backlan-sample02.png)
-
+- プライベート接続  
+![](images/old-sample02.png)  
 
 
 ------
 
-### 参考構成例
+#### 旧リージョンの構成例3  
 
-以降はIPCOM VAを使った参考の構成例です。
-
-
-
-**IPCOM VAで階層を分ける構成例**
-
-![new-sample02](images/new-sample02.png)
+- バックLAN  
+![](images/old-sample03.png)  
 
 
+---
 
-**IPCOM VAで階層を分け一部通信を仮想ルータ経由とする構成例**
+### 2. 新リージョン  
 
-![new-sample03](images/new-sample03.png)
+１つのネットワークは、「１つの仮想ルータ」のみに接続できます。  
 
-
-
-**IPCOM VAによるバックLAN構成例1**
-
-![new-backlan-sample03](images/new-backlan-sample03.png)
+![](images/new-sample00.png)  
 
 
+---
 
-**IPCOM VAによるバックLAN構成例2**
+#### 新リージョンの構成例1  
 
-![new-backlan-sample04](images/new-backlan-sample04.png)
+- 複数のネットワークを同じ仮想ルータに接続  
+
+![](images/new-sample011.png)  
 
 
+---
 
-**IPCOM VAによるバックLAN構成例3**
+#### 新リージョンの構成例2  
 
-![new-backlan-sample05](images/new-backlan-sample05.png)
+- プライベート接続  
 
+![](images/new-sample012.png)  
+
+
+---
+
+#### 新リージョンの構成例3  
+
+- バックLAN接続  
+
+![](images/new-sample013.png)  
+
+![](images/new-sample014.png)  
+
+
+---
+
+### 3. 参考  
+
+新リージョンで、従来と同じような構成を実現したい場合は、IPCOM VAを利用します。  
+
+
+---
+
+#### 新リージョンの参考例1  
+
+- 「旧リージョンの構成例1」と同等構成  
+
+![](images/new-sample02.png)  
+
+
+---
+
+#### 新リージョンの参考例2  
+
+- バックLAN接続、プライベート接続  
+
+![](images/new-backlan-sample03.png)  
+
+![](images/new-backlan-sample04.png)  
+
+![](images/new-backlan-sample05.png)  
+
+
+---

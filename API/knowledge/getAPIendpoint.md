@@ -1,8 +1,20 @@
-# APIエンドポイントの取得方法
+# APIエンドポイントの取得方法  
 
-## API発行例  
+## 目次  
 
-トークンを取得後、以下のようなコマンドで取得可能です。
+<!-- TOC depthFrom:3 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [1. API発行例](#1-api発行例)
+- [2. 実行結果](#2-実行結果)
+
+<!-- /TOC -->
+
+
+---
+
+### 1. API発行例  
+
+トークンを取得後、以下のようなコマンドで取得可能です。  
 
 - $REG：リージョン  
 - $IDENTITY：利用者管理のAPIエンドポイント  
@@ -19,9 +31,9 @@ curl -s $IDENTITY/v3/auth/catalog -X GET -H "X-Auth-Token: $TOKEN" | jq '.catalo
 
 ---
 
+### 2. 実行結果  
 
-実行結果(2018年10月時点)  
-
+- 2019年3月時点  
 - xxxxx：プロジェクトID  
 
 ```
@@ -44,3 +56,6 @@ curl -s $IDENTITY/v3/auth/catalog -X GET -H "X-Auth-Token: $TOKEN" | jq '.catalo
 "https://identity.jp-west-3.cloud.global.fujitsu.com/v3"
 "https://import-export.jp-west-3.cloud.global.fujitsu.com"
 ```
+
+
+---

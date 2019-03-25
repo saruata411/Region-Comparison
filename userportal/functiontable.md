@@ -1,4 +1,17 @@
-# ユーザーポータル機能一覧表
+# IaaSポータル機能一覧表
+
+## 目次  
+
+<!-- TOC depthFrom:3 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [1. 変更ポイント](#1-変更ポイント)
+
+<!-- /TOC -->
+
+
+---
+
+### 1. 変更ポイント  
 
 ユーザーポータルの新リージョン対応状況です。
 - [✓]：提供  
@@ -20,7 +33,7 @@
 |                          | セキュリティグループ       |  ✓   | －                                                                      |
 |                          | グローバルIP               |  ✓   | －                                                                      |
 |                          | ファイアーウォール         |  ✓   | 現在制限あり (\*1) (\*2)：制限に該当する機能は、APIを利用してください。 |
-|                          | DNS                        |  ×   | DNSサービスの設定操作は、東日本リージョン1で実施してください。          |
+|                          | DNS                        |  ×   | －                                                                      |
 |                          | ロードバランサー           |  ✓   | 編集はAPIを利用してください。                                           |
 |                          | VPNサービス</br>(SSL-VPN)  |  ✓   | －                                                                      |
 |                          | VPNサービス</br>(IPSecVPN) |  ✓   | －                                                                      |
@@ -34,5 +47,5 @@
 | ログ                     | 操作ログ                   |  ✓   | －                                                                      |
 
 
-(\*1)：[ファイアーウォールサービスの制限事項](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/firewall_limitation.pdf)をご覧ください。  
-(\*2)：[IaaS 制限事項・注意事項](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/k5-limitation2.pdf)をご覧ください。  
+(\*1)：[「ファイアーウォールサービスの制限事項」](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/firewall_limitation.pdf)をご覧ください。  
+(\*2)：[「IaaS 制限事項・注意事項」](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/restriction/v3/k5-limitation2.pdf)をご覧ください。  
