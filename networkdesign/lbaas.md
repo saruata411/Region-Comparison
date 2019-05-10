@@ -24,5 +24,3 @@
 
 新リージョンのロードバランサー仕様については、[「IaaS機能説明書 → ロードバランサーサービス（lbaas）」](https://doc.cloud.global.fujitsu.com/lib/iaas/jp/function-manual/index.html#intro/intro_elb_lbaas_v3.html)をご覧ください。  
 
-
----
